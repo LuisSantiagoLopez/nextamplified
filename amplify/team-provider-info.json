@@ -9,11 +9,18 @@
       "UnauthRoleName": "amplify-nextamplified-dev-a1faf-unauthRole",
       "StackName": "amplify-nextamplified-dev-a1faf",
       "StackId": "arn:aws:cloudformation:us-east-1:373313205576:stack/amplify-nextamplified-dev-a1faf/f440ebb0-b8ed-11ef-a904-125d0b2a21d1",
-      "AmplifyAppId": "d2a79kup4o4dta"
+      "AmplifyAppId": "d2a79kup4o4dta",
+      "awsProfileName": "iam-profile"
     },
     "categories": {
       "api": {
         "nextamplified": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2a79kup4o4dta",
+          "type": "cicd"
+        }
       }
     }
   }
