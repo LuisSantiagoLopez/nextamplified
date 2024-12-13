@@ -1,0 +1,49 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-nextamplified-dev-a1faf-authRole",
+            "UnauthRoleArn": "arn:aws:iam::373313205576:role/amplify-nextamplified-dev-a1faf-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::373313205576:role/amplify-nextamplified-dev-a1faf-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-nextamplified-dev-a1faf-deployment",
+            "UnauthRoleName": "amplify-nextamplified-dev-a1faf-unauthRole",
+            "StackName": "amplify-nextamplified-dev-a1faf",
+            "StackId": "arn:aws:cloudformation:us-east-1:373313205576:stack/amplify-nextamplified-dev-a1faf/f440ebb0-b8ed-11ef-a904-125d0b2a21d1",
+            "AmplifyAppId": "d2a79kup4o4dta"
+        }
+    },
+    "api": {
+        "nextamplified": {
+            "service": "AppSync",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [],
+            "output": {
+                "authConfig": {
+                    "defaultAuthentication": {
+                        "authenticationType": "API_KEY",
+                        "apiKeyConfig": {
+                            "apiKeyExpirationDays": 7
+                        }
+                    },
+                    "additionalAuthenticationProviders": []
+                },
+                "GraphQLAPIIdOutput": "qjwly55vjvf4req3uqwghc2zpy",
+                "GraphQLAPIEndpointOutput": "https://egkkwmdjv5bxljd47mut2xdgse.appsync-api.us-east-1.amazonaws.com/graphql",
+                "GraphQLAPIKeyOutput": "da2-6h2o6rni2nbppmxy7ymtmysh3e"
+            },
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/amplify-nextamplified-dev-a1faf-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+                "logicalId": "apinextamplified"
+            },
+            "lastPushTimeStamp": "2024-12-13T01:20:05.791Z",
+            "lastPushDirHash": "OGmlxLf9rT3LBhaBCqqdVuIcPbo="
+        }
+    },
+    "hosting": {
+        "amplifyhosting": {
+            "service": "amplifyhosting",
+            "type": "cicd",
+            "lastPushTimeStamp": "2024-12-13T02:06:17.764Z"
+        }
+    }
+}
