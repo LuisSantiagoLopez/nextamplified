@@ -19,7 +19,6 @@
   },
   "hosting": {
     "amplifyhosting": {
-      "lastPushTimeStamp": "2024-12-13T02:06:17.764Z",
       "service": "amplifyhosting",
       "type": "cicd"
     }
